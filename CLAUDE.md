@@ -45,6 +45,11 @@ To update the displayed text, edit the `.line` divs inside `#content` in the HTM
 - **GitHub:** https://github.com/rmerinollorens-create/claude-code-test
 - **Vercel (production):** https://claude-code-test-eight-silk.vercel.app
 - Auto-deploy activo: cada push a `main` despliega automáticamente.
+- Deploy manual:
+  ```
+  export PATH="/Users/robertomerino/.npm-global/bin:$PATH"
+  vercel --token <vcp_token> --prod --scope rmerinollorens-creates-projects
+  ```
 
 ## Custom Agents
 
