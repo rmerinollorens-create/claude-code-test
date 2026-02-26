@@ -43,7 +43,8 @@ To update the displayed text, edit the `.line` divs inside `#content` in the HTM
 ## Deployment
 
 - **GitHub:** https://github.com/rmerinollorens-create/claude-code-test
-- **Vercel (production):** https://claude-code-test-eight-silk.vercel.app
+- **Vercel (production):** https://roberto-merino.vercel.app
+- **Vercel (alias):** https://claude-code-test-eight-silk.vercel.app
 - Auto-deploy activo: cada push normal a `main` despliega automáticamente vía la integración GitHub–Vercel. No se necesita ningún comando adicional.
 - Nota: `git push --force` no dispara el auto-deploy; en ese caso usar el deploy manual:
   ```
