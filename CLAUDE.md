@@ -40,6 +40,12 @@ To update the displayed text, edit the `.line` divs inside `#content` in the HTM
 - The Matrix rain canvas opacity is controlled in CSS (`opacity: 0.18`) — raise/lower to adjust background effect prominence.
 - CRT scanline intensity is set by the `rgba(0,0,0,0.07)` value in the `repeating-linear-gradient` on `#scanlines`.
 
+## Deployment
+
+- **GitHub:** https://github.com/rmerinollorens-create/claude-code-test
+- **Vercel (production):** https://claude-code-test-eight-silk.vercel.app
+- Auto-deploy activo: cada push a `main` despliega automáticamente.
+
 ## Custom Agents
 
 The `.claude/agents/landing-page-cro-expert.md` defines a CRO (Conversion Rate Optimization) expert agent for analyzing and optimizing landing pages. It is aware of this project's single-file architecture and design constraints.
